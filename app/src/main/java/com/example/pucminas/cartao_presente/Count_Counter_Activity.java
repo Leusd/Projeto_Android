@@ -13,7 +13,7 @@ public class Count_Counter_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_Count_Counter);
+        setContentView(R.layout.activity_count_counter);
 
         resultado1 = (TextView) findViewById(R.id.resultado1);
         resultado2 = (TextView) findViewById(R.id.resultado2);
@@ -21,17 +21,17 @@ public class Count_Counter_Activity extends AppCompatActivity {
 
     public void atualizaresultado(View view){
         if(view.getId() == R.id.time13){
-            resultado1.setText(Integer.parseInt(resultado1.getText().toString())+3);
+            resultado1.setText(String.valueOf(resultado1.getText().toString())+3);
         }else if(view.getId() == R.id.time23){
-            resultado2.setText(Integer.parseInt(resultado1.getText().toString())+3);
+            resultado2.setText(String.valueOf(resultado2.getText().toString())+3);
         }else if(view.getId() == R.id.time12){
-            resultado1.setText(Integer.parseInt(resultado1.getText().toString())+2);
+            resultado1.setText(String.valueOf(resultado1.getText().toString())+2);
         }else if(view.getId() == R.id.time22){
-            resultado2.setText(Integer.parseInt(resultado1.getText().toString())+2);
+            resultado2.setText(String.valueOf(resultado2.getText().toString())+2);
         }else if(view.getId() == R.id.time1FREE){
-            resultado1.setText(Integer.parseInt(resultado1.getText().toString())+1);
+            resultado1.setText(String.valueOf(resultado1.getText().toString())+1);
         }else if(view.getId() == R.id.time2FREE){
-            resultado2.setText(Integer.parseInt(resultado1.getText().toString())+1);
+            resultado2.setText(String.valueOf(resultado2.getText().toString())+1);
         }
 
     }

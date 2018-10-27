@@ -52,6 +52,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="34dp"
         android:layout_marginTop="144dp"
+        android:onClick="atualizaresultado"
         android:text="+3 POINTS" />
 
     <Button
@@ -62,6 +63,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="7dp"
         android:layout_marginTop="216dp"
+        android:onClick="atualizaresultado"
         android:text="+2 POINTS" />
 
     <Button
@@ -100,6 +102,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="22dp"
         android:layout_marginBottom="0dp"
+        android:onClick="atualizaresultado"
         android:text="+3 POINTS" />
 
     <Button
@@ -109,6 +112,7 @@
         android:layout_alignTop="@+id/time12"
         android:layout_marginStart="248dp"
         android:layout_marginTop="-4dp"
+        android:onClick="atualizaresultado"
         android:text="+2 POINTS" />
 
     <Button
@@ -119,6 +123,7 @@
         android:layout_alignEnd="@+id/time23"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="-14dp"
+        android:onClick="atualizaresultado"
         android:text="FREE THROW" />
 
 
